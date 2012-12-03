@@ -12,7 +12,7 @@ dispatch. Also, there is no error-checking.
 * `dailyReturn` calculates simple return. 
 * `myotherdate` an experimental function to convert string to date. (almost identical to the one in `base/libc.jl`)
 
-In this example, we have a file in directory called `AAPL.csv`
+In this example, we have a file in directory called `AAPL.csv`.
 
 ```bash
 ✈  head AAPL.csv 
@@ -83,12 +83,13 @@ julia> AAPL_50sma = movingave(AAPL, 50)
 ```
 # Celery
 
-Placeholder for future Econometric algorithms
+Placeholder for Econometric algorithms.
 
 # Onion
 
-Placeholder for future Trading algorithms
+Placeholder for Trading algorithms.
 
 # Carrot 
 
-Placeholder Machine Learning algorithms 
+Placeholder for Machine Learning algorithms.
+
