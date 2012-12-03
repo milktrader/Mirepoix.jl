@@ -8,9 +8,9 @@ dispatch. Also, there is no error-checking.
 # Functions
 
 * `movingave` calculates a moving average.
-* `myotherdate` is an experimental function to convert string to date.
 * `loadSymbol` reads in a Yahoo time series. 
 * `dailyReturn` calculates simple return. 
+* `myotherdate` an experimental function to convert string to date. (almost identical to the one in `base/libc.jl`)
 
 In this example, we have a file in directory called `AAPL.csv`
 
