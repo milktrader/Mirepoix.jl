@@ -77,4 +77,6 @@ Placeholder for future Econometric algorithms
 
 Placeholder for future  Trading algorithms
 
-# Carrot Machine Learning algorithms
+# Carrot 
+
+Machine Learning algorithms
