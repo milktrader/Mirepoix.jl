@@ -75,8 +75,8 @@ Placeholder for future Econometric algorithms
 
 # Onion
 
-Placeholder for future  Trading algorithms
+Placeholder for future Trading algorithms
 
 # Carrot 
 
-Machine Learning algorithms
+Placeholder Machine Learning algorithms 
