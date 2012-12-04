@@ -1,4 +1,4 @@
-function DFstock(s) 
+function DFfromcsvfile(s) 
 
 require("DataFrames")
 

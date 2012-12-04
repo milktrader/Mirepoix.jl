@@ -1,14 +1,10 @@
-## this takes a pre-processed String Array created
-## from the downloadPrices() function
-
-
-function DFdownloadedfromyahoo(sa)
+function boo(sa)
 
 require("DataFrames")
 
 df = DataFrame(quote
 
- Date     = $(sa[:,1])
+ Date     = ASCIIString($(sa[:,1]))
  Open     = float64($(sa[:,2]))
  High     = float64($(sa[:,3]))
  Low      = float64($(sa[:,4]))
