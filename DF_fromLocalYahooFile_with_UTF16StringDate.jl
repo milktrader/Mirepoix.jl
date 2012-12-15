@@ -1,19 +1,24 @@
-function DFwithtime(s) 
+# compilation errors with loading packages
 
-require("DataFrames")
+function DF_UTF16(s) 
+
+# load("DataFrames")
+# load("UTF16")
+# using DataFrames
+# using UTF16
 
     tkr = csvread(s)
 
-    dat = ticker[2:end, 1]
+    dat = tkr[2:end, 1]
     dat = flipud(dat)
-    dat = convert(Array{ASCIIString}, dat)
+    dat = convert(Array{UTF16String}, dat)
 
     sym = tkr[2:end, 2:7] 
     sym = flipud(sym)
     sym = convert(Array{Float64}, sym)
 
   stock = DataFrame(quote
-    Date = $(dat)
+    Date = $(dat[:])
     Op  = $(sym[:,1]) 
     Hi  = $(sym[:,2])
     Lo  = $(sym[:,3])
