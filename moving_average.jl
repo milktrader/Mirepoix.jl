@@ -1,4 +1,4 @@
-function movingave(x,n)
+function moving_average(x,n)
 
 y = [sum(x[i:i+(n-1)])/n for i=1:length(x)-(n-1)]
 
