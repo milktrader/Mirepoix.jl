@@ -1,0 +1,3 @@
+within!(GLD, quote
+        Date = $(baz)
+        end)
