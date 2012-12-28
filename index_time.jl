@@ -80,3 +80,8 @@ julia> s[s["friday"] .== true]
               Date  Open  High   Low Close   Volume Adj Close friday
 [1,]    1970-01-08 92.63 93.47 91.99 92.68 10670000     92.68   true
 [2,]    1970-01-15 91.65 92.35 90.73 91.68 11120000     91.68   true
+
+
+
+
+
