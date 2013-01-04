@@ -2,7 +2,7 @@
 # an additional column whose value is a simple moving average
 
 
-function uoo(df::DataFrame, n::Int64, col::ASCIIString)
+function add_sma(df::DataFrame, n::Int64, col::ASCIIString)
 
   function sma(x,n)
     foo = [sum(x[i:i+(n-1)])/n for i=1:length(x)-(n-1)]
