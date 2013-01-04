@@ -1,0 +1,8 @@
+hoo is a function that pads with NA
+
+
+julia> within!(spx, quote
+       bar = $hoo( vector($spx["Close"]), 2)
+       end);
+
+
