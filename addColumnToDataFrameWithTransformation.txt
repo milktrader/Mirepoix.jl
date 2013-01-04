@@ -1,0 +1,3 @@
+julia> within(spx, quote
+       foo = DataArray(map(x -> log(x), vector($spx["Close"])))
+       end)
