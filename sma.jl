@@ -6,6 +6,7 @@ function sma(x,n)
     if bar[i] == 0
       bar[i] = NA
   end
+  end
 
   bar
 end
